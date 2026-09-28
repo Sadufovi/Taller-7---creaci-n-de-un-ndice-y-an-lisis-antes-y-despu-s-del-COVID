@@ -1,1 +1,1 @@
-# Taller-7---creaci-n-de-un-ndice-y-an-lisis-antes-y-despu-s-del-COVID
+# *Taller 7: Creación de un índice y Análisis antes y después del COVID*.
