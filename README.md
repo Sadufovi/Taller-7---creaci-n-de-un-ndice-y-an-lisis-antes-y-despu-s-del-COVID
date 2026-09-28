@@ -25,6 +25,41 @@ El fondo de inversión requiere entender la evolución sectorial comparada entre
 
 El análisis se basa en datos de precios de cierre diario y volúmenes de transacción (2015–2025) obtenidos mediante Bloomberg, estructurados y procesados rigurosamente en Excel (y opcionalmente respaldados en Power BI), siguiendo la metodología de *Doing Economics* (CORE Econ, Cap. 10.2).
 
+## Contenido del análisis
+
+Parte 1 — Construcción de los índices: Selección de 3 sectores económicos (10 acciones por sector), descarga de precios de cierre diario y volúmenes de transacción (2015–2025) desde Bloomberg. Construcción de pesos según el volumen de transacciones inicial (enero 2015) y comparación con pesos según el precio inicial. Explicación de las implicaciones metodológicas de la regla de ponderación para la toma de decisiones del fondo de inversión.
+
+Parte 2 — Resumen y comportamiento de los datos: Caracterización teórica del universo de activos representados y sus limitaciones. Cálculo de retornos aritméticos diarios por activo y retornos diarios ponderados de los tres índices (2015–2025). Análisis gráfico de dispersión y valores atípicos mediante gráficos de caja y bigotes (boxplots), análisis de forma de distribución mediante histogramas, y evolución acumulada mediante gráfico de líneas normalizado a base 100 (enero de 2015).
+
+Parte 3 — Una comparación antes y después del COVID: 2015 vs. 2025: Cálculo de desviación estándar y número de observaciones (n) para 2015 y 2025. Estimación de intervalos de confianza al 95% para los retornos ponderados utilizando la función CONFIDENCE.T. Construcción de gráficos de barras comparativos con barras de error. Interpretación cuantitativa de cambios pre y post COVID (distinguiendo evidencia empírica de afirmaciones causales) y formulación de la recomendación final de inversión (priorizar, observar o evitar sectores) con al menos una cautela metodológica.
+
+## Contribuciones individuales
+
+Samuel Dussán Fonseca — Líder del proyecto y enlace con el fondo
+
+[Escribe aquí la descripción de tus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+
+Chari Valeria Reyes Arias — Especialista en datos y reproducibilidad
+
+[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+
+Mariana Forigua Tamayo — Analista cuantitativo
+
+[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+
+Santiago Gómez Ibague — Especialista en visualización y comunicación
+
+[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+
+María Paula Monroy Molina — Analista cuantitativo / Apoyo en investigación
+
+[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+
+## Referencias
+
+* CORE Econ. (2021). *Doing Economics: Empirical Projects in Economics*. Capítulo 10: *Measuring changes in the economy: Index numbers*. Disponible en: https://books.core-econ.org/doing-economics/book/text/10-02.html
+* Datos de mercado y precios de cierre de renta variable recuperados mediante **Bloomberg Terminal** (2015–2025).
+
 ## Estructura del repositorio
 
 ```text
