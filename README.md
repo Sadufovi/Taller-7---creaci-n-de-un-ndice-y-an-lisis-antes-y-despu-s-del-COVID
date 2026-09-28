@@ -27,14 +27,14 @@ El análisis se basa en datos de precios de cierre diario y volúmenes de transa
 
 ## Estructura del repositorio
 
-* **Datos_y_Analisis/**
-  * `taller7_indices_fondo.xlsx`: Libro de Excel dinámico, verificado y reproducible.
-* **Presentacion/**
-  * `taller7_briefing.pptx`: Presentación ejecutiva para el cliente (Sesión 3).
-* **Dashboard/**
-  * `taller7_visualizacion.pbix`: (Opcional) Dashboard interactivo de apoyo.
-* `.gitignore`: Exclusión de archivos temporales.
-* `README.md`: Documentación principal del proyecto.
+TALLER_7_INDICES_COVID/
+├── Datos_y_Analisis/
+│   └── taller7_indices_fondo.xlsx      # Libro de Excel dinámico, verificado y reproducible
+├── Presentacion/
+│   └── taller7_briefing.pptx           # Presentación ejecutiva para el cliente (Sesión 3)
+├── Dashboard/                           # (Opcional) Dashboard interactivo de apoyo
+│   └── taller7_visualizacion.pbix
+└── README.md                           # Documentación principal del proyecto
 
 ## Reproducibilidad
 
