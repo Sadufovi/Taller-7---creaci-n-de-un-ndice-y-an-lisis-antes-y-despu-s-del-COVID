@@ -2,6 +2,18 @@
 
 Repositorio del equipo consultor para el encargo del fondo de inversión interesado en analizar la evolución y desempeño de tres sectores de la economía global entre 2015 y 2025. El objetivo es construir índices sectoriales transparentes a partir de datos de mercado, evaluar el impacto de distintas reglas de ponderación (precio vs. volumen), comparar retornos y volatilidad entre el periodo previo y posterior al COVID-19, y estructurar una recomendación de inversión clara y fundamentada.
 
+## Estructura del repositorio
+
+```text
+TALLER_7_INDICES_COVID/
+├── Datos_y_Analisis/
+│   └── taller7_indices_fondo.xlsx    # Libro de Excel dinámico, verificado y reproducible
+├── Presentacion/
+│   └── taller7_briefing.pptx         # Presentación ejecutiva para el cliente (Sesión 3)
+├── Dashboard/                        # (Opcional) Dashboard interactivo de apoyo
+│   └── taller7_visualizacion.pbix
+└── README.md                         # Documentación principal del proyecto
+
 ## Equipo consultor
 
 | Integrante | Rol |
@@ -59,15 +71,3 @@ María Paula Monroy Molina — Analista cuantitativo / Apoyo en investigación
 
 * CORE Econ. (2021). *Doing Economics: Empirical Projects in Economics*. Capítulo 10: *Measuring changes in the economy: Index numbers*. Disponible en: https://books.core-econ.org/doing-economics/book/text/10-02.html
 * Datos de mercado y precios de cierre de renta variable recuperados mediante **Bloomberg Terminal** (2015–2025).
-
-## Estructura del repositorio
-
-```text
-TALLER_7_INDICES_COVID/
-├── Datos_y_Analisis/
-│   └── taller7_indices_fondo.xlsx    # Libro de Excel dinámico, verificado y reproducible
-├── Presentacion/
-│   └── taller7_briefing.pptx         # Presentación ejecutiva para el cliente (Sesión 3)
-├── Dashboard/                        # (Opcional) Dashboard interactivo de apoyo
-│   └── taller7_visualizacion.pbix
-└── README.md                         # Documentación principal del proyecto
