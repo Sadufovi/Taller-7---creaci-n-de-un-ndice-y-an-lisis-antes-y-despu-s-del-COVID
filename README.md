@@ -25,8 +25,7 @@ El fondo de inversión requiere entender la evolución sectorial comparada entre
 
 El análisis se basa en datos de precios de cierre diario y volúmenes de transacción (2015–2025) obtenidos mediante Bloomberg, estructurados y procesados rigurosamente en Excel (y opcionalmente respaldados en Power BI), siguiendo la metodología de *Doing Economics* (CORE Econ, Cap. 10.2).
 
-## Estructura del repositorio
-
+```text
 TALLER_7_INDICES_COVID/
 ├── Datos_y_Analisis/
 │   └── taller7_indices_fondo.xlsx      # Libro de Excel dinámico, verificado y reproducible
@@ -35,6 +34,7 @@ TALLER_7_INDICES_COVID/
 ├── Dashboard/                           # (Opcional) Dashboard interactivo de apoyo
 │   └── taller7_visualizacion.pbix
 └── README.md                           # Documentación principal del proyecto
+```
 
 ## Reproducibilidad
 
