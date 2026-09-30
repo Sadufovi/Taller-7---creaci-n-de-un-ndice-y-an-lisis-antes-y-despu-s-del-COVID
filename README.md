@@ -3,9 +3,7 @@
 Repositorio del equipo consultor para el encargo del fondo de inversión interesado en analizar la evolución y desempeño de tres sectores de la economía global entre 2015 y 2025. El objetivo es construir índices sectoriales transparentes a partir de datos de mercado, evaluar el impacto de distintas reglas de ponderación (precio vs. volumen), comparar retornos y volatilidad entre el periodo previo y posterior al COVID-19, y estructurar una recomendación de inversión clara y fundamentada.
 
 ## Equipo consultor
-
 | Integrante | Rol |
-| :--- | :--- |
 | *Samuel Dussán Fonseca* | *Líder del proyecto y enlace con el fondo* |
 | *Chari Valeria Reyes Arias* | *Especialista en datos y reproducibilidad* |
 | *Mariana Forigua Tamayo* | *Analista cuantitativo* |
@@ -56,25 +54,33 @@ Parte 3 — Una comparación antes y después del COVID: 2015 vs. 2025: Cálculo
 ## Contribuciones individuales
 
 Samuel Dussán Fonseca — Líder del proyecto y enlace con el fondo
-Creación, administración y mantenimiento de la estructura del repositorio de GitHub, estableciendo las buenas prácticas de versionamiento, archivo `.gitignore` para entornos de Office y la documentación general del `README.md`.
-* Co-diseño y estructuración conceptual del *deck* ejecutivo de la presentación en PowerPoint (`Presentacion/taller7_briefing.pptx`), definiendo la narrativa estratégica para el cliente y coordinando la integración de los insumos cuantitativos de las partes 1, 2 y 3.
-* Supervisión general de la coherencia entre las hojas de cálculo dinámicas en Excel y los entregables ejecutivos presentados al fondo de inversión.
+* Dirección general del proyecto, creación y gestión del repositorio de GitHub (`.gitignore` y `README.md`), velando por el cumplimiento de estándares de reproducibilidad y versionamiento.
+* Co-diseño, estructura y maquetación de la presentación ejecutiva en PowerPoint (`Presentación Taller 7`), adaptando la narrativa para el cliente.
+* Desarrollo técnico y redacción del análisis cuantitativo de la pregunta 1.3 (implicaciones metodológicas de las reglas de ponderación) y la pregunta 2.5 (comportamiento, dispersión y dinámicas sectoriales).
+* Supervisión de la coherencia entre el libro de Excel, cálculo para los pesos fijos por volumen, precio y los entregables ejecutivos del proyecto.
 
-Chari Valeria Reyes Arias — Especialista en datos y reproducibilidad
-
-[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+Chari Valeria Reyes Arias - Especialista en datos y reproducibilidad
+* Extracción, depuración y estructuración de las series históricas de datos diarios de precios de cierre y volúmenes (2015–2025) obtenidas desde Bloomberg Terminal.
+* Construcción conjunta de las visualizaciones de distribución en Excel (`taller7_indices_fondo.xlsx`), elaborando los gráficos de caja y bigotes para la detección de *outliers* e histogramas de frecuencias.
+* Protocolo de auditoría de reproducibilidad para asegurar la ausencia de valores quemados (*hardcoding*) en el libro de trabajo.
+* Validación y verificación continua de la consistencia de los datos entre los distintos sectores para prevenir inconsistencias y fechas faltantes en las series temporales.
 
 Mariana Forigua Tamayo — Analista cuantitativo
-
-[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+* Liderazgo técnico en la estructuración de los modelos cuantitativos del taller según la metodología del proyecto empírico de CORE Econ (Cap. 10.2).
+* Desarrollo de la arquitectura de cálculo en Excel para los pesos fijos por volumen y precio, las series de retornos diarios ponderados e índices normalizados base 100 (`1.2_Pesos_y_Ponderaciones` y `1.3_Indices_y_Retornos`).
+* Co-construcción de los gráficos de evolución temporal y trayectorias sectoriales acumuladas.
+* Apoyo general y acompañamiento continuo a todos los integrantes del grupo en el desarrollo integral del proyecto.
 
 Santiago Gómez Ibague — Especialista en visualización y comunicación
-
-[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+* Liderazgo en el diseño visual, maquetación y jerarquización de la información para el *deck* ejecutivo de la presentación en PowerPoint (`Presentacion Taller 7`).
+* Transformación de tablas estadísticas, estimaciones cuantitativas e intervalos de confianza en recursos gráficos de alto impacto para la Sesión 3.
+* Estandarización de la identidad visual y formato de los materiales de apoyo del equipo.
+* Redacción de la "Presentación Taller 7" final.
 
 María Paula Monroy Molina — Analista cuantitativo / Apoyo en investigación
-
-[Escribe aquí la descripción de sus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+* Ejecución de las pruebas estadísticas de la Parte 3, calculando desviaciones estándar e intervalos de confianza al 95% mediante la función `CONFIDENCE.T` para los periodos 2015 y 2025.
+* Consolidación del análisis comparativo estructural pre y post COVID-19 para evaluar diferencias estadísticamente significativas entre ambos periodos.
+* Redacción de las consideraciones finales, delimitación de cautelas metodológicas y formulación de la recomendación estratégica de inversión.
 
 ## Referencias
 
