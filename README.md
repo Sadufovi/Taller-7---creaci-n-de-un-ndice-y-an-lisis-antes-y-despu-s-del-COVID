@@ -56,8 +56,9 @@ Parte 3 — Una comparación antes y después del COVID: 2015 vs. 2025: Cálculo
 ## Contribuciones individuales
 
 Samuel Dussán Fonseca — Líder del proyecto y enlace con el fondo
-
-[Escribe aquí la descripción de tus aportes concretos al taller y las hojas/pestañas de Excel o diapositivas donde pueden verificarse].
+Creación, administración y mantenimiento de la estructura del repositorio de GitHub, estableciendo las buenas prácticas de versionamiento, archivo `.gitignore` para entornos de Office y la documentación general del `README.md`.
+* Co-diseño y estructuración conceptual del *deck* ejecutivo de la presentación en PowerPoint (`Presentacion/taller7_briefing.pptx`), definiendo la narrativa estratégica para el cliente y coordinando la integración de los insumos cuantitativos de las partes 1, 2 y 3.
+* Supervisión general de la coherencia entre las hojas de cálculo dinámicas en Excel y los entregables ejecutivos presentados al fondo de inversión.
 
 Chari Valeria Reyes Arias — Especialista en datos y reproducibilidad
 
