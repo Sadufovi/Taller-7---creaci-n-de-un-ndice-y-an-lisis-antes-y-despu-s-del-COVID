@@ -3,7 +3,10 @@
 Repositorio del equipo consultor para el encargo del fondo de inversión interesado en analizar la evolución y desempeño de tres sectores de la economía global entre 2015 y 2025. El objetivo es construir índices sectoriales transparentes a partir de datos de mercado, evaluar el impacto de distintas reglas de ponderación (precio vs. volumen), comparar retornos y volatilidad entre el periodo previo y posterior al COVID-19, y estructurar una recomendación de inversión clara y fundamentada.
 
 ## Equipo consultor
+## Equipo consultor
+
 | Integrante | Rol |
+| :--- | :--- |
 | *Samuel Dussán Fonseca* | *Líder del proyecto y enlace con el fondo* |
 | *Chari Valeria Reyes Arias* | *Especialista en datos y reproducibilidad* |
 | *Mariana Forigua Tamayo* | *Analista cuantitativo* |
