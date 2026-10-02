@@ -24,17 +24,17 @@ El fondo de inversión requiere entender la evolución sectorial comparada entre
 3. **Comparación pre y post COVID (2015 vs. 2025):** ¿Existen diferencias estadísticamente significativas en términos de retorno promedio, desviación estándar e intervalos de confianza (95%) entre 2015 y 2025?
 4. **Recomendación estratégica:** ¿Qué sector(es) debería el fondo priorizar, mantener bajo observación o evitar, considerando el desempeño acumulado, la dispersión, los eventos extremos y las limitaciones metodológicas del análisis?
 
-El análisis se basa en datos de precios de cierre diario y volúmenes de transacción (2015–2025) obtenidos mediante Bloomberg, estructurados y procesados rigurosamente en Excel (y opcionalmente respaldados en Power BI), siguiendo la metodología de *Doing Economics* (CORE Econ, Cap. 10.2).
+El análisis se basa en datos de precios de cierre diario y volúmenes de transacción (2015–2025) obtenidos mediante Bloomberg, estructurados y procesados rigurosamente en Excel, siguiendo la metodología de *Doing Economics* (CORE Econ, Cap. 10.2).
 
 # Estructura del repositorio
 ```text
 TALLER_7_INDICES_COVID/
 ├── Datos_y_Analisis/
-│   └── taller7_indices_fondo.xlsx      # Libro de Excel dinámico, verificado y reproducible
+│   └── Raw_Data_taller 7.xslx      # Libro de Excel dinámico, verificado y reproducible
+│   └── Taller_7_Documento              # Documento pdf con respuesta a las preguntas del taller
 ├── Presentacion/
-│   └── taller7_briefing.pptx           # Presentación ejecutiva para el cliente (Sesión 3)
-├── Dashboard/                           # (Opcional) Dashboard interactivo de apoyo
-│   └── taller7_visualizacion.pbix
+│   └── Presentación Taller 7           # Presentación ejecutiva para el cliente (Sesión 3)
+│   └── .gitignore                      # Archivo de texto encargado de evitar la creación de archivos temporales                        
 └── README.md                           # Documentación principal del proyecto
 ```
 
